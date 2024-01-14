@@ -10,7 +10,7 @@ def credentials():
     """
 
     # Here you define all of the credentials that you'll need from the user
-    required_credentials = ["FRED API Key"]
+    required_credentials = ["FRED API Key", "AlphaVantage API Key"]
 
     credentials_pathway = os.path.join(
         os.path.dirname(__file__), "..", "data", "credentials.json"
