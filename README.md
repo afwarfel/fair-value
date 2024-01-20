@@ -73,7 +73,19 @@ The goal of this repository is to share my code with more people in order to fin
 
 ## API Keys
 
-You will need to obtain free API Keys from:
+This project requires API keys from the following services:
 
 - [FRED](https://fred.stlouisfed.org/docs/api/api_key.html)
-- [AlphaVantage](https://www.alphavantage.co/).
+- [AlphaVantage](https://www.alphavantage.co/)
+
+To add these API keys to the project:
+
+1. Obtain the API keys from the above services. They are free to use.
+
+2. Open the `.env.example` file in the project root directory.
+
+3. Replace the placeholder values with your actual API keys.
+
+4. Save the file, and then rename it from `.env.example` to `.env`.
+
+The `.env` file is used to store environment variables, which include API keys. It can be accessed throughout your project. This file is listed in the `.gitignore` file, which means it will not be tracked by Git. This helps to keep your API keys secure.
