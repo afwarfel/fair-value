@@ -8,6 +8,38 @@ This repository uses Python 3.9.10. Ensure your Python version is correct by typ
 
 ## Setting Up the Project
 
+### Cloning the Repository
+
+To work with this project on your local machine, you'll need to clone the repository. Here are the steps:
+
+1. **Install Git**: Git is a version control system that lets you manage and keep track of your source code history. If you don't have Git installed on your machine, you can download it from the [Git official website](https://git-scm.com/downloads).
+
+2. **Open Terminal**: Open a terminal window. On Windows, you can use Command Prompt or PowerShell. On MacOS/Linux, you can use Terminal.
+
+3. **Navigate to the Desired Directory**: Use the `cd` command to navigate to the directory where you want to clone the repository. For example, if you want to clone the repository to a directory named "projects", you would use the following command:
+
+   ```bash
+   cd path/to/projects
+   ```
+
+4. **Clone the Repository**: Now, you can clone the repository by running the following command:
+
+   ```bash
+   git clone https://github.com/username/repository.git
+   ```
+
+   Replace "username" with the username of the repository owner and "repository" with the name of the repository. This command creates a new directory in your current directory where the repository files are cloned.
+
+5. **Navigate to the Repository Directory**: Use the `cd` command to navigate to the newly created repository directory:
+
+   ```bash
+   cd repository
+   ```
+
+   Replace "repository" with the name of the repository.
+
+Now, you have a local copy of the project that you can open with your favorite IDE or text editor.
+
 This project requires a Python virtual environment for managing dependencies. Here are the steps to set it up:
 
 1. **Create a Virtual Environment**: A virtual environment is a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages. To create a virtual environment, open your terminal and navigate to the project directory. Then, run the following command:
