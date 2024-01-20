@@ -1,6 +1,6 @@
 # Fair Value Repository
 
-This repository contains supporting code for data analysis on the Fair Value newsletter. It is maintained by Alex Warfel, who can be reached at alexwarfel@gmail.com.
+This repository contains supporting code for data analysis on the [Fair Value newsletter](https://www.alexwarfel.com/). It is maintained by Alex Warfel, who can be reached at alexwarfel@gmail.com.
 
 ## Python Version
 
